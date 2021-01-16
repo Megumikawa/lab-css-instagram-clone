@@ -8,3 +8,129 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+section {
+  background-image: url(./../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+main, footer {
+  margin: 0 20%;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.main-left {
+  margin-right: 4%;
+}
+
+.main-right {
+  margin-left: 4%;
+}
+
+.right-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 0;
+}
+
+.right-top a {
+  background-color: #1c5380;
+  background: -moz-linear-gradient(bottom, #3a6890, #6a8ead);
+  background: -webkit-linear-gradient(bottom, #3a6890, #6a8ead);
+  background: linear-gradient(to top, #3a6890, #6a8ead);
+  border: 1px solid #2f5c82;
+  border-radius: 5%;
+  color: #fff;
+  cursor: pointer;
+  display: inline-table;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 2% 0 0 4%;
+  padding: 2%;
+  white-space: nowrap;
+  
+}
+
+.right-top a img {
+  padding-right: 6px;
+}
+
+.right-info {
+  background-image: url(./../images/frame.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6%;
+  margin-top: 26px;
+  padding: 4% 8% 0;
+}
+
+.right-info h2 {
+  color: #06365f;
+  margin: 0;
+  white-space: normal;
+  width: 50%;
+}
+
+.right-info p {
+  font-size: 18px;
+  white-space: normal;
+}
+
+.download {
+  margin-top: 4%;
+  padding-left: 8%;
+}
+
+.download a {
+  margin-right: 6%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.footer-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu li {
+  margin-right: 2%;
+  padding: 10px 6px;
+  white-space: nowrap;
+}
+
+.footer-menu a {
+  color: #3582c0;
+  font-weight: 400;
+  padding: 2px;
+}
+
+small {
+  margin: 1% 0 0 12%;
+}
